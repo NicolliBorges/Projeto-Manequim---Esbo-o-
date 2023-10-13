@@ -1,0 +1,115 @@
+Software 
+
+Manequin virtual:
+
+Liste as funcionalidades essenciais que o software deve ter: 
+a captura de medidas;
+a criação do avatar;
+a personalização;
+varios estilos de roupas, em um guarda roupa virtual;
+
+Voltando no princio:
+
+Ao entrar na loja e selecionar a peça que deseja comprar, na parte do carrinho - terá a opção de, "vista-se". 
+
+Clicando lá, você precisara selecionar a medida que deseja da peça e logo em seguida irá para a parte de passar as suas medias.
+
+Essa roupa vai direto para o seu guarda roupa virtual!
+
+Na criação do avatar:
+
+Seria basicamente um menu igual ao the sims, só não precisa ser tão complexo....
+
+Captura de medidas:
+
+- Peso
+- Altura 
+- Calculo Imc
+- Cintura
+- Seios
+- Gluteos 
+- Quadril
+- largura dos ombros
+todas as medias possiveis para deixar mais preciso.
+
+
+Quero que tenha:
+
+1 - Criação do rosto:
+- Cabelo
+- cor do cabelo
+- Sobrancelha
+- cor da sobrancelha
+- Olhos
+- cor dos olhos 
+- Cilios
+- Nariz
+- Boca
+- Orelhas 
+- Acessorios 
+
+2 - Criação do corpo:
+
+De acordo com as medidas solicitadas, vamos utilizar uma IA que crie um corpo baseado nisso.
+
+Tendo a opção de modificar depois....
+
+OBS: na criação do corpo e do rosto, a visualização será em tempo real, permitindo que o usuario altere e visualize as alterações
+
+3 - Vestindo a roupa:
+
+Nessa etapa, funcionará da seguinte maneira....
+
+Para você vestir a roupa, basta pegar desse guarda roupa e arrastar para o seu avatar(manequin);
+- com a medida passada e com a medida selecionada a ia será capaz da analisar e retornar um resultado, por exemplo:
+
+Essa roupa ficou no tamanho certo!
+
+Essa roupa está um pouco apertada!
+
+Essa roupa ficou um pouquinho larga, mas nada que um cinto não resolva! rs.
+
+Precisamos que a IA, analise as seguintes informações:
+Para a análise das medidas em relação às roupas,tipo de tecido da roupa, pois diferentes tecidos têm elasticidades distintas.
+
+Caso o numero seja muito menor do que a pessoa veste, IA deverá analisar e retornar uma animação.
+Avatar, tentando subir a calça ou o que for,ou tentando colocar a blusa, camisa e não entrando....
+
+Caso a roupa seja muito mais larga, mostrar a roupa caindo(parte de baixo), caso seja a parte de cima, não haverá problema, a não ser que seja um vestido, cropped, etc...
+
+Além das mensagens de texto,incorporar feedback visual. Por exemplo, uma marcação visual no avatar indicando onde a roupa está mais apertada ou mais larga.
+
+OBS: vamos aprimorar essa parte e as demais....
+
+
+Após isso, retonaria ao carrinho e teria a possibilidade de manter a peça, alterar o tamanho ou descartar peça.
+
+Quarda Roupa Virtual
+
+Vamos ter categorização das roupas, separadas da seguinte maneira:
+(calças, blusas, vestidos, etc.) 
+nosso software precisa 
+permitir que os usuários organizem seu guarda-roupa de maneira personalizada.
+
+Tais como:
+- roupas por cores
+- calças
+- blusas
+- vestidos
+- cor do guarda roupa
+
+Aprimoramento Visual do Avatar:
+
+Permita que os usuários ajustem detalhes finos, como expressões faciais, pose do corpo, etc., para tornar o avatar ainda mais personalizado.
+
+Histórico de Compras:
+
+Mantenha um histórico de compras e looks anteriores, permitindo que os usuários revisitem e reutilizem outfits que eles gostaram.
+
+Notificações de Estilo:
+
+Ofereça notificações ou sugestões de estilo com base nas últimas tendências ou eventos sazonais.
+
+Assistente Virtual de Moda:
+
+Adicione um assistente virtual de moda que possa fornecer dicas de estilo com base nas preferências do usuário.

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Medidas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='medida.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Captura de Medidas</h1>
+        <form id="measurementForm" method="POST" action="{{ url_for('calcular_imc') }}">
+            {{ form.hidden_tag() }}
+            
+            <div class="form-group">
+                <label for="{{ form.altura.id }}">{{ form.altura.label }}</label>
+                {{ form.altura(class="form-control") }}
+            </div>
+
+            <div class="form-group">
+                <label for="{{ form.peso.id }}">{{ form.peso.label }}</label>
+                {{ form.peso(class="form-control") }}
+            </div>
+
+            <div class="form-group">
+                <label for="{{ form.cintura.id }}">{{ form.cintura.label }}</label>
+                {{ form.cintura(class="form-control") }}
+            </div>
+            
+            <div class="form-group">
+                <label for="{{ form.seios.id }}">{{ form.seios.label }}</label>
+                {{ form.seios(class="form-control") }}
+            </div>
+            
+            <div class="form-group">
+                <label for="{{ form.quadril.id }}">{{ form.quadril.label }}</label>
+                {{ form.quadril(class="form-control") }}
+            </div>
+            
+            <div class="form-group">
+                <label for="{{ form.largura_ombro.id }}">{{ form.largura_ombro.label }}</label>
+                {{ form.largura_ombro(class="form-control") }}
+            </div>
+            
+
+            <!-- Adicione mais campos conforme necessário -->
+
+            <button type="submit">Calcular IMC</button>
+        </form>
+    </div>
+    {% if imc %}
+    <p>Seu IMC é: {{ imc }}</p>
+    {% endif %}
+
+    <script src="{{ url_for('static', filename='medida.js') }}"></script>
+</body>
+</html>

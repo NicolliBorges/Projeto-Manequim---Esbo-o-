@@ -1,0 +1,22 @@
+Quarda Roupa Virtual
+
+Vamos ter categorização das roupas, separadas da seguinte maneira:
+(calças, blusas, vestidos, etc.) 
+nosso software precisa 
+permitir que os usuários organizem seu guarda-roupa de maneira personalizada.
+
+Tais como:
+- roupas por cores
+- calças
+- blusas
+- vestidos
+- cor do guarda roupa
+
+
+Inteligência Artificial:
+
+Certifique-se de que a IA seja treinada com uma ampla variedade de tipos de corpo, para garantir precisão na criação do corpo base.
+
+Recomendações de Estilo:
+
+Implemente um sistema de recomendação que sugere estilos com base nas preferências anteriores do usuário ou nas tendências de moda.

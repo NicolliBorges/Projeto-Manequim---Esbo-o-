@@ -1,0 +1,13 @@
+Aqui está uma configuração sugerida:
+
+JavaScript (Frontend):
+
+Utilize JavaScript com um framework moderno como React ou Vue.js para o frontend da aplicação. Isso proporcionará uma interface de usuário dinâmica e responsiva. Bibliotecas como Three.js podem ser incorporadas para manipulação de gráficos 3D.
+Python (Backend):
+
+Python é uma escolha sólida para o backend, especialmente para projetos de IA. Você pode usar frameworks como Django ou Flask para gerenciar a lógica de negócios, manipulação de dados e integração com IA.
+C# (Unity para Gráficos 3D):
+
+Se você planeja criar uma experiência 3D imersiva para o usuário, especialmente para visualização de roupas, Unity com C# pode ser uma escolha excelente. Isso permite que você crie uma aplicação de desktop ou até mesmo um aplicativo móvel usando Unity para os elementos 3D.
+
+Sugestão de criação de software.

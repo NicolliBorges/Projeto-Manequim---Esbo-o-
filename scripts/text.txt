@@ -1,0 +1,58 @@
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Reshape, Flatten
+from tensorflow.keras.models import Sequential
+
+# GAN Generator
+def build_generator(latent_dim):
+    model = Sequential()
+    model.add(Dense(256, input_dim=latent_dim, activation='relu'))
+    model.add(Dense(512, activation='relu'))
+    model.add(Dense(1024, activation='relu'))
+    model.add(Dense(784, activation='sigmoid'))
+    model.add(Reshape((28, 28, 1)))
+    return model
+
+# GAN Discriminator
+def build_discriminator(img_shape):
+    model = Sequential()
+    model.add(Flatten(input_shape=img_shape))
+    model.add(Dense(1024, activation='relu'))
+    model.add(Dense(512, activation='relu'))
+    model.add(Dense(256, activation='relu'))
+    model.add(Dense(1, activation='sigmoid'))
+    return model
+
+# GAN Model
+def build_gan(generator, discriminator):
+    discriminator.trainable = False
+    model = Sequential()
+    model.add(generator)
+    model.add(discriminator)
+    return model
+
+# Define model parameters
+latent_dim = 100
+img_shape = (28, 28, 1)
+
+# Build and compile the discriminator
+discriminator = build_discriminator(img_shape)
+discriminator.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Build and compile the generator
+generator = build_generator(latent_dim)
+discriminator.trainable = False
+gan = build_gan(generator, discriminator)
+gan.compile(loss='binary_crossentropy', optimizer='adam')
+
+# Train the GAN
+# ... (Treinamento aqui)
+
+# Generate new avatar
+def generate_avatar():
+    noise = tf.random.normal([1, latent_dim])
+    generated_avatar = generator.predict(noise)
+    # Visualizar ou salvar a imagem gerada
+    # ...
+
+# Uso da função de geração de avatar
+generate_avatar()
